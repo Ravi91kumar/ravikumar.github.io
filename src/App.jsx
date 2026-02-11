@@ -27,7 +27,7 @@ export default function App() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
 
-  const COLLEGE_NAME = "Your College Name";
+  const COLLEGE_NAME = "GOVERNMENT ENGINEERING COLLEGE SHEOHAR ";
 
   useEffect(() => {
     async function loadData() {
