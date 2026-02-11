@@ -3,7 +3,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import { jsPDF } from "jspdf";
 
-const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vR9RlnEvhCTugFezMOSmtQqq0gWNr8DFB272qpw6T1hp3T13mouRtjkJfCrHpMHhTsiKJTx74-CjQCL/pubhtml";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRkcb3Ky6EgeRlpGOCYnah4O6cgte4lsAEfhXBDG-Y-L1ba5CN1HJdiaz38eTPuqFFK-nxEUsiM1i6e/pubhtmlhttps://docs.google.com/spreadsheets/d/e/2PACX-1vRkcb3Ky6EgeRlpGOCYnah4O6cgte4lsAEfhXBDG-Y-L1ba5CN1HJdiaz38eTPuqFFK-nxEUsiM1i6e/pubhtml";
 
 function parseCSV(text) {
   const rows = text.trim().split("\n").map((row) => row.split(","));
