@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { jsPDF } from "jspdf";
 
-const SHEET_CSV_URL = "PASTE_YOUR_GOOGLE_SHEET_CSV_LINK_HERE";
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vRkcb3Ky6EgeRlpGOCYnah4O6cgte4lsAEfhXBDG-Y-L1ba5CN1HJdiaz38eTPuqFFK-nxEUsiM1i6e/pub?output=csv";
 const COLLEGE_NAME = "Government Engineering College Sheohar";
 const LOGO_PATH = "/logo.png";
 
